@@ -108,7 +108,7 @@ p {
     position: relative;
     overflow: hidden;
     z-index: 1;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
   }
   .button:after {
     content: '';
@@ -215,6 +215,7 @@ p {
 
   .endcard {
       text-align:center;
+      animation-delay: 1s;
   }
   .endcard > div {
     vertical-align:top;
@@ -223,4 +224,8 @@ p {
 
   a{
       color: #ffffff;
+  }
+
+  i {
+    animation-delay: 1s;
   }
